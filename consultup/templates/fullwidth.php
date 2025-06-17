@@ -18,6 +18,7 @@ get_template_part('index','banner'); ?>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
+      <div class="consultup-blog-post-box py-4 px-4">
         <?php while (have_posts()) : the_post();
               if(has_post_thumbnail()) {
           if ( is_single() ) { ?>
@@ -39,7 +40,10 @@ get_template_part('index','banner'); ?>
                   comments_template();
               endif;
           endwhile;
+
+          consultup_edit_link();
         ?>
+        </div>
       </div>
     </div>
   </div>

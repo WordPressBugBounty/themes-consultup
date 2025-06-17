@@ -245,7 +245,7 @@ function consultup_archive_page_setting( $wp_customize ) {
             $wp_customize,
             'page_type_heading',
             array(
-                'label'             => esc_html__( 'Pages Layout', 'agencyup' ),
+                'label'             => esc_html__( 'Pages Layout', 'consultup' ),
                 'section'           => 'archive_settings',
             )
         )
