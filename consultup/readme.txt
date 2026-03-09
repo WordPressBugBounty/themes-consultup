@@ -3,8 +3,8 @@ Contributors: themeansar
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, sticky-post, threaded-comments, translation-ready, rtl-language-support, blog, e-commerce
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.9.9.42
-Version: 1.9.9.42
+Stable tag: 1.9.9.43
+Version: 1.9.9.43
 
 == Theme License & Copyright ==
 consultup is distributed under the terms of the GNU GPL
@@ -342,3 +342,6 @@ License for images:
 
 --- Version 1.9.9.42 ----
 1. Fixed Deprecation Issue
+
+--- Version 1.9.9.43 ----
+1. Added Primary Color Variable.
