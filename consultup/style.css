@@ -4,7 +4,7 @@ Theme URI: https://themeansar.com/themes/consultup/
 Author: themeansar
 Author URI: https://themeansar.com
 Description: Consultup WordPress theme ideal for a business or perfect solutions for corporate, consulting, wedding planners, agency, law firms, finance, law travel, recipes, sport/medical shops, startups, online agencies, portfolios, freelancers, E-commerce.  The theme is responsive, WPML, Retina ready, SEO friendly(Live preview : https://demo.themeansar.com/consultup/)
-Version: 1.9.9.43
+Version: 1.9.9.44
 Tested up to: 6.9
 Requires PHP: 7.4
 Requires at least: 6.6
@@ -174,7 +174,8 @@ Text Domain: consultup
 	padding-left: 0;
 }
 .ti-headwidget.trans .ti-head-detail .ti-social {
-	padding-right: 0;
+	display: flex;
+    gap: 10px;
 }
 .ti-headwidget.trans .ti-header-box {
     margin-right: auto;
@@ -199,14 +200,13 @@ Text Domain: consultup
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .ti-head-detail .info-left {
-	display: block;
-	float: left;
-	margin: 0;
-	padding: 0;
+	display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
 }
 .ti-head-detail .info-left li {
 	display: inline-block;
-	margin-right: 15px;
 	padding: 0;
 }
 .ti-head-detail .info-left li a {
@@ -214,7 +214,7 @@ Text Domain: consultup
 }
 .ti-head-detail .info-left i {
 	font-size: 14px;
-	padding-right: 10px;
+	padding-right: 5px;
 }
 .ti-head-detail .btn-theme.quote {
     margin: -5px 0 -5px 0;
@@ -237,7 +237,6 @@ Text Domain: consultup
 }
 .ti-head-detail .info-right i {
 	font-size: 14px;
-	padding-right: 10px;
 }
 .ti-head-detail .ti-social {
 	padding: 0;
@@ -254,10 +253,8 @@ Text Domain: consultup
 	display: inline-block;
 	width: 25px;
 	height: 25px;
-	line-height: 18px;
-	margin: 0 5px 0 0;
+	line-height: 25px;
 	text-align: center;
-	padding: 2px 0px 0 6px;
 }
 .ti-head-detail .ti-social li span.icon-soci:hover {
 	transition: all 0.4s ease-in-out 0s;
@@ -374,16 +371,9 @@ Text Domain: consultup
 .header-widget .ti-header-box {
 	margin: 0;
 }
-.header-widget .ti-header-box-icon {
-	float: left;
-    display: inline-block;
-    height: auto;
-    margin-right: 0;
-    position: relative;
-    text-align: center;
-    top: 5px;
-    width: auto;
-    line-height: 35px;
+.header-widget .ti-header-box:has(.ti-header-box-icon) {
+	display: flex;
+    gap: 15px;
 }
 .header-widget .ti-header-box-icon i {
 	border-radius: 10px;
@@ -395,10 +385,6 @@ Text Domain: consultup
 }
 .header-widget .ti-header-box-icon i:hover {
 	transition: all 0.3s ease 0s;
-}
-.header-widget .ti-header-box-info {
-	margin-left: 20px;
-	padding-left: 25px;
 }
 .header-widget .ti-header-box-info h4 {
 	font-size: 14px;
@@ -1669,20 +1655,8 @@ svg:not(:root) {
 .ti-head-detail .ti-social li a:hover {
 	padding-left: 0;
 }
-.ti-head-detail .ti-social li span.icon-soci {
-	display: inline-block;
-	width: 25px;
-	height: 25px;
-	line-height: 18px;
-	margin: 0 5px 0 0;
-	text-align: center;
-	padding: 2px 0px 0 6px;
-}
 .ti-head-detail .ti-social li span.icon-soci:hover {
 	transition: all 0.4s ease-in-out 0s;
-}
-.ti-head-detail .ti-social li span.icon-soci i {
-	font-size: 14px;
 }
 .ti-head-detail .ti-social-navigation a {
     height: 28px;
