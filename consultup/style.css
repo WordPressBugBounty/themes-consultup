@@ -4,7 +4,7 @@ Theme URI: https://themeansar.com/themes/consultup/
 Author: themeansar
 Author URI: https://themeansar.com
 Description: Consultup WordPress theme ideal for a business or perfect solutions for corporate, consulting, wedding planners, agency, law firms, finance, law travel, recipes, sport/medical shops, startups, online agencies, portfolios, freelancers, E-commerce.  The theme is responsive, WPML, Retina ready, SEO friendly(Live preview : https://demo.themeansar.com/consultup/)
-Version: 1.9.9.44
+Version: 1.9.9.45
 Tested up to: 6.9
 Requires PHP: 7.4
 Requires at least: 6.6
@@ -408,7 +408,6 @@ Text Domain: consultup
     border-bottom: none;
 }
 .header-widget .ti-header-box .ti-social li span.icon-soci {
-    display: inline-block;
     float: left;
     height: 28px;
     line-height: 28px;
@@ -424,7 +423,6 @@ Text Domain: consultup
 	margin: 40px -18px 0 0;
 }
 .header-widget .ti-header-box .ti-social-navigation a {
-   display: inline-block;
     float: left;
     height: 28px;
     line-height: 28px;
@@ -755,7 +753,6 @@ Text Domain: consultup
 	margin: 40px -18px 0 0;
 }
 .header-widget .consultup-header-box .consultup-social-navigation a {
-   display: inline-block;
     float: left;
     height: 28px;
     line-height: 28px;
@@ -1376,7 +1373,6 @@ blockquote cite {
 	display: inline-block;
 	font-size: 16px;
 	line-height: 1;
-	speak: none;
 	text-align: center;
 	text-decoration: inherit;
 	text-transform: none;
@@ -1503,7 +1499,6 @@ footer .ti-social li a:hover {
 	padding-left: 0;
 }
 footer .ti-social li span.icon-soci {
-	display: inline-block;
 	float: left;
 	height: 35px;
 	line-height: 35px;
@@ -1615,7 +1610,6 @@ button.mfp-close:hover, button.mfp-close:focus {
 	transition: all 0.4s ease-in-out 0s;
 }
 .consultup-social-navigation a {
-	display: inline-block;
 	float: left;
 	height: 28px;
 	line-height: 28px;
@@ -2160,7 +2154,6 @@ svg:not(:root) {
 }
 .consultup-calltoaction-box-icon {
 	float: left;
-	display: inline-block;
 	margin-right: 25px;
 	width: 50px;
 }
@@ -2343,6 +2336,7 @@ svg:not(:root) {
   -moz-transition: margin-top 0.4s ease-in-out;
   -ms-transition: margin-top 0.4s ease-in-out;
   -o-transition: margin-top 0.4s ease-in-out;
+  transition: margin-top 0.4s ease-in-out;
   margin-top: 230px;
 }
 /*---------------------------------------
@@ -3181,7 +3175,6 @@ svg:not(:root) {
 	margin: 0 8px 8px 0;
 	text-align: center;
 	width: 25px;
-	display: inline-block;
 	float: left;
 	border-radius: 30px;
 }
@@ -3214,7 +3207,6 @@ svg:not(:root) {
 	padding: 0;
 }
 .consultup-sidebar .consultup-widget .consultup-social li span.icon-soci {
-	display: inline-block;
 	float: left;
 	height: 32px;
 	line-height: 32px;
@@ -3976,7 +3968,6 @@ footer .consultup-widget .woocommerce ul.cart_list li img, footer .consultup-wid
     border: 1px solid #dbdbdb;
     color: #212121;
     cursor: pointer;
-    display: inline-block;
     transition: all 0.3s ease 0s;
     font-size: 18px;
     line-height: 40px;
